@@ -51,7 +51,4 @@ The project can be integrated with MLOps tools:
 
 
 
-## License
-
-MIT License
 
