@@ -4,6 +4,7 @@
 ## Abstract
 This paper presents an AI-powered code review system that leverages Large Language Models (LLMs) to automate and enhance the code review process. The system utilizes OpenAI's GPT-3.5-turbo model to analyze code, detect potential bugs, and suggest improvements. Built with Streamlit for an intuitive user interface, the system incorporates MLOps practices for experiment tracking and performance monitoring. Our approach demonstrates significant improvements in code review efficiency while maintaining high accuracy in bug detection and improvement suggestions. The system achieves an average quality score of 0.8 across various programming languages and successfully identifies critical issues in 85% of test cases.
 
+
 ## 1. Introduction
 Code review is a critical process in software development that ensures code quality, identifies bugs, and maintains coding standards. However, manual code review is time-consuming and can be inconsistent. Our AI Code Review Assistant addresses these challenges by providing automated, consistent, and comprehensive code analysis. The system is designed to work with multiple programming languages and can be integrated into existing development workflows.
 
