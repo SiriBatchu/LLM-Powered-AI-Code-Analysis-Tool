@@ -1,5 +1,4 @@
 # AI Code Review Assistant: An Intelligent Code Analysis System
-## Authors: Siri Batchu
 
 ## Abstract
 This paper presents an AI-powered code review system that leverages Large Language Models (LLMs) to automate and enhance the code review process. The system utilizes OpenAI's GPT-3.5-turbo model to analyze code, detect potential bugs, and suggest improvements. Built with Streamlit for an intuitive user interface, the system incorporates MLOps practices for experiment tracking and performance monitoring. Our approach demonstrates significant improvements in code review efficiency while maintaining high accuracy in bug detection and improvement suggestions. The system achieves an average quality score of 0.8 across various programming languages and successfully identifies critical issues in 85% of test cases.
@@ -298,12 +297,6 @@ Example code reviews and their results are available in the project documentatio
     - Batch size: 8
     - Max sequence length: 1024
     - Beam size: 4
-
-- Training time per model:
-  - CodeBERT: 2 hours
-  - GraphCodeBERT: 3 hours
-  - CodeT5: 4 hours
-  - Total training time: 9 hours
 
 - Hardware requirements:
   - GPU: NVIDIA T4 or better
