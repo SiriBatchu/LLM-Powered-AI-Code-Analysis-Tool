@@ -4,7 +4,7 @@ An intelligent code review system that leverages Large Language Models (LLMs) to
 
 ## 📸 Interface Preview
 
-![AI Code Review Assistant Screenshot](./assets/screenshot.png)
+![AI Code Review Assistant Screenshot](./frontend/UI.png)
 
 ## Features
 
