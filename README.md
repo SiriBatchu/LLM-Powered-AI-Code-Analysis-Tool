@@ -9,6 +9,19 @@ An intelligent code review system that leverages Large Language Models (LLMs) to
 - 🔄 Automated code review suggestions
 - 📱 Simple and intuitive web interface
 
+## Project Structure
+
+```bash
+📦 ai-code-review-assistant/
+ ┣ 📜 app.py                  # Streamlit frontend and backend
+ ┣ 📜 prompts/                # Prompt templates for multiple review strategies
+ ┣ 📜 .env.example            # Sample environment variables
+ ┣ 📜 requirements.txt        # Python dependencies
+ ┣ 📜 utils/                  # Helper functions and API wrappers
+ ┣ 📜 mlops/                  # MLOps configs (MLflow, DVC, Prometheus)
+ ┗ 📁 assets/                 # UI screenshots, charts
+ ```
+
 ## Setup Instructions
 
 1. Clone the repository
