@@ -2,6 +2,10 @@
 
 An intelligent code review system that leverages Large Language Models (LLMs) to analyze code, suggest improvements, and detect potential bugs. Built with Streamlit for a simple and intuitive user interface.
 
+## 📸 Interface Preview
+
+![AI Code Review Assistant Screenshot](./assets/screenshot.png)
+
 ## Features
 
 - 🤖 AI-powered code analysis and suggestions
@@ -21,6 +25,20 @@ An intelligent code review system that leverages Large Language Models (LLMs) to
  ┣ 📜 mlops/                  # MLOps configs (MLflow, DVC, Prometheus)
  ┗ 📁 assets/                 # UI screenshots, charts
  ```
+---
+
+## 🧱 Architecture
+
+| Layer                  | Component               | Description                                                             |
+|------------------------|-------------------------|-------------------------------------------------------------------------|
+| Input Processing       | Streamlit UI            | Accepts code, language, and review strategy                             |
+| LLM Backend            | OpenAI GPT-3.5          | Generates contextual code feedback using custom prompt templates        |
+| Vector Handling (opt.) | FAISS / LlamaIndex      | Used for retrieval-based enrichment (future expansion)                  |
+| Review Engine          | Prompt Generator        | Formats code + strategy into LLM-ready prompt                           |
+| Output Display         | Chart + Text Renderer   | Displays score + markdown-based feedback with metrics visualization     |
+| MLOps Integration      | MLflow, DVC, Grafana    | Tracks experiments, versions prompts/data, and monitors inference usage |
+
+---
 
 ## Setup Instructions
 
