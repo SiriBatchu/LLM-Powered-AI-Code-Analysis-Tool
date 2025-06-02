@@ -77,7 +77,23 @@ The project can be integrated with MLOps tools:
 - DVC for data versioning
 - Prometheus/Grafana for monitoring
 
-## Team Members and Contributions
+## 📋 Example Use Case
+
+```python
+def printNames():
+    neal = "neal"
+    michele = "michlele"
+    eric = 5
+    print("Local values: %s %s %s" % (michele, neal, eric))
+ ```
+   
+And get AI-powered feedback:
+
+-Use f-strings instead of % formatting
+
+-Fix typo in variable name michlele
+
+-Avoid assigning int to a variable named like a person
 
 
 
